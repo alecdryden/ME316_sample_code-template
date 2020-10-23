@@ -1,0 +1,107 @@
+\documentclass[10pt,twocolumn]{article}
+	
+\usepackage{myfontstyle}
+\usepackage{mypackages}
+\usepackage{mymacros}
+\usepackage{mycommands}
+
+\begin{document}
+\thispagestyle{fancy1}
+
+%%% Title and Abstract------------------------
+\twocolumn[
+\begin{center}
+	\hrule
+	\vspace{3pt}
+	% Title:
+	{\sffamily\bfseries\Large
+		Report for Laboratory XX: Title
+	} \\
+	{\color{gray}
+		\vspace{3pt}
+		\hrule
+		\vspace{3pt}
+	}
+	{
+		\hspace*{\fill}
+		First Author
+		\hspace*{\fill}
+		Second Author
+		\hspace*{\fill}
+		Third Author
+		\hspace*{\fill}
+%		Fourth Author    % uncomment these two lines if there's a fourth author
+%		\hspace*{\fill}
+	}\\
+	\vspace{3pt}
+	{\itshape
+		\hspace*{\fill}
+		Department of Mechanical Engineering, Saint Martin's University
+		\hspace*{\fill} \\
+		\hspace*{\fill}
+		ME/EE 316---Mechatronics \& Measurements Laboratory
+		\hspace*{\fill}
+	}\\
+	\vspace{3pt}
+	{
+		\hspace*{\fill}
+		\today{} % today's date ... can type manually instead
+		\hspace*{\fill}
+	}
+	\vspace{3pt}
+	{\color{gray}\hrule}
+%	\vspace{2pt}
+\end{center}
+% Abstract:
+\begin{adjustwidth}{1.5in}{1.5in}
+{\small
+\noindent\textbf{Abstract.} \hspace{1em}
+% Begin abstract here
+
+
+}
+\end{adjustwidth}
+\vspace{9pt}
+\hrule
+\vspace{1\baselineskip}
+]
+
+%%% Body -------------------------
+
+
+
+\section{Introduction} 
+\label{sec:introduction}
+
+
+
+\section{Materials and Methods}
+\label{sec:materiels_and_methods}
+
+
+
+\section{Results}
+\label{sec:results}
+
+
+
+\section{Discussion}
+\label{sec:discussion}
+
+
+
+\section{Author Contributions}
+
+
+
+%%% References -------------------------
+
+\bibliographystyle{plainnat}
+\bibliography{report}
+
+%%% Appendices -------------------------
+
+\appendix
+
+
+\end{document}  
